@@ -1,0 +1,34 @@
+# UPC Validator Application - Python Dependencies
+# Install all dependencies with: pip install -r requirements.txt
+
+# Core GUI (included with Python)
+# tkinter - Standard library, no installation needed
+
+# Image processing and barcode generation
+Pillow>=10.0.0              # Image processing library
+python-barcode>=0.15.1      # Barcode generation
+
+# Webcam and barcode scanning (optional but recommended)
+opencv-python>=4.8.0        # Computer vision and webcam access
+pyzbar>=0.1.9               # Barcode reading from images
+
+# PDF export (optional but recommended)
+reportlab>=4.0.0            # PDF generation
+
+# Note: On Windows, you may need to install additional dependencies for pyzbar:
+# Download and install Visual C++ Redistributable if you encounter DLL errors
+# https://aka.ms/vs/17/release/vc_redist.x64.exe
+
+# Note: For pyzbar on Windows, you may also need to install zbar:
+# Download from: https://sourceforge.net/projects/zbar/files/zbar/
+# Or use: pip install pyzbar-windows (alternative package)
+
+# Standard library dependencies (no installation needed):
+# - sqlite3 (database)
+# - csv (file handling)
+# - datetime (timestamps)
+# - threading (async operations)
+# - tkinter.ttk (themed widgets)
+# - io (byte streams)
+# - os, pathlib (file operations)
+# - re (regex)
